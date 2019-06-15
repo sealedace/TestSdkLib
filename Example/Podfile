@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TestSdk_Example' do
+  pod 'TestSdk', :path => '../'
+
+  target 'TestSdk_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+  end
+end
