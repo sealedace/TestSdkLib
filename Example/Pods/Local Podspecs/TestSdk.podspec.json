@@ -1,0 +1,22 @@
+{
+  "name": "TestSdk",
+  "version": "0.1.0",
+  "summary": "A short description of TestSdk.",
+  "description": "A mixed languange framework.",
+  "homepage": "https://github.com/sealedace/TestSdk",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "gaoqiang xu": "xgqpower@163.com"
+  },
+  "source": {
+    "git": "https://github.com/sealedace/TestSdkLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TestSdk/Classes/**/*"
+}
